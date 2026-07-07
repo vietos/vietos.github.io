@@ -2,17 +2,24 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<section class="landing">
+  <div class="landing-content">
+    <h1>VietOS — Hệ điều hành dành cho Người Việt Nam</h1>
+    <p>VietOS đang phát triển dựa trên Debian, tích hợp sẵn các công cụ nguồn mở mà người Việt hay dùng, giúp nâng cao trải nghiệm sử dụng và đảm bảo tính ổn định.</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <h2>Vì sao VietOS quan trọng?</h2>
+    <ul>
+      <li>Thực hiện chủ quyền số bằng giải pháp công nghệ do người Việt phát triển.</li>
+      <li>Dựa trên Debian ổn định và dễ mở rộng, phù hợp với nhiều máy tính cá nhân và môi trường giáo dục.</li>
+      <li>Tích hợp các phần mềm nguồn mở phổ biến ở Việt Nam, giúp người dùng nhanh chóng làm quen và sử dụng hiệu quả.</li>
+      <li>Giảm phụ thuộc vào phần mềm nước ngoài và tăng tính tự chủ kỹ thuật.</li>
+      <li>Tích hợp cơ chế đảm bảo bản quyền, phù hợp với yêu cầu bảo vệ nội dung và dữ liệu.</li>
+    </ul>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <h2>Mục tiêu phát triển</h2>
+    <p>Chúng tôi xây dựng VietOS để tạo ra một hệ điều hành an toàn, ổn định và tôn trọng bản quyền, giúp người Việt tự tin hơn khi sử dụng công nghệ trong học tập, làm việc và sáng tạo.</p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <h2>Liên hệ</h2>
+    <p>Theo dõi tiến trình dự án và cập nhật mới nhất trên Facebook: <a href="https://www.facebook.com/profile.php?id=61591744620797" target="_blank">https://www.facebook.com/profile.php?id=61591744620797</a></p>
+  </div>
+</section>
